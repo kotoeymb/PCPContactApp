@@ -10,30 +10,30 @@ var whereIndex = INDEXES['All'];
 $.todoWin.open();
 
 // fetch existing todo items from storage
-todos && todos.fetch();
-
+ todos.fetch();
 // Filter the fetched collection before rendering. Don't return the
 // collection itself, but instead return an array of models
 // that you would like to render.
+/*
 function whereFunction(collection) {
 	return !whereIndex ?
 		collection.models :
 		collection.where({ done: whereIndex === 1 ? 0 : 1 });
 }
-
+*/
 // Perform transformations on each model as it is processed. Since
 // these are only transformations for UI representation, we don't
 // actually want to change the model. Instead, return an object
 // that contains the fields you want to use in your bindings. The
 // easiest way to do that is to clone the model and return its
 // attributes with the toJSON() function.
-function transformFunction(model) {
+/*function transformFunction(model) {
 	var transform = model.toJSON();
 	transform.item = '[' + transform.item + ']';
 	//transform.done = '[' + transform.done + ']';
 	return transform;
 }
-
+*/
 // open the "add item" window
 function addToDoItem() {
 Alloy.createController("add",{}).getView().open();
@@ -70,9 +70,9 @@ function show(e) {
 function show(event) {// to show bookdetails lists
 	var selectedBook = event.source;
 	var args = {
-		text : selectedBook.text,
-		done : selectedBook.done
-		/*author : selectedBook.author,
+		item : selectedBook.item
+	   /*done : selectedBook.done
+		author : selectedBook.author,
 		email  : selectedBook.email*/
 	};
 	var bookview = Alloy.createController("details", args).getView();
@@ -86,7 +86,6 @@ function show(event) {// to show bookdetails lists
         bookview.open();
     }
 }
-
 
 
 

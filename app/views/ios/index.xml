@@ -40,7 +40,7 @@
       is rendered as a row. It gives the opportunity to modify
       the model's values before they are applied to each row.
     -->
-    <TableView id="todoTable" dataCollection="todo" dataFilter="whereFunction" dataTransform="transformFunction" onClick="show">
+    <TableView id="todoTable" dataCollection="todo" onClick="show"> <!--   dataFilter="whereFunction" dataTransform="transformFunction" -->
       <Require src="row"/>
     </TableView>
 

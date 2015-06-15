@@ -2,9 +2,9 @@ var moment = require('alloy/moment');
 exports.definition = {
 	config: {
 		"columns": {
-			"item":"sting",
-			"done":"integer"
-			//"date_completed":"text"
+			"item":"text",
+			"done":"integer",
+			"date_completed" :"text"
 		},
 		"adapter": {
 			"type": "sql",

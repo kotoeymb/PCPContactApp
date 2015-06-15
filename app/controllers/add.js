@@ -4,7 +4,7 @@ function addItem() {
     // Create a new model for the todo collection
     var task = Alloy.createModel('Todo', {
         item : $.itemField.value,
-       done : $.doneField.value
+       done : 0
     });
 
     // add new model to the global collection

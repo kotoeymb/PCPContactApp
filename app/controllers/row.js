@@ -1,13 +1,13 @@
 var moment = require('alloy/moment');
 var todos = Alloy.Collections.todo;
 var id;
-id = $model.id;
+
 
 
 // $model represents the current model accessible to this
 // controller from the markup's model-view binding. $model
 // will be null if there is no binding in place.
-/*
+
 if ($model) {
 	id = $model.id;
 	if ($model.get('done')) {
@@ -25,8 +25,8 @@ if ($model) {
 		
 	
 	}
-}*/
-/*
+}
+
 // toggle the "done" status of the IDed todo
 function toggleStatus(e) {
 	// find the todo task by id
@@ -40,7 +40,7 @@ function toggleStatus(e) {
 		"date_completed": moment().unix()
 	}).save();
 }
-*/
+
 // delete the IDed todo from the collection
 function deleteTask(e) {
 	// prevent bubbling up to the row
