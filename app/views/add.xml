@@ -6,13 +6,13 @@
     <TextField id="doneField" hintText="Ph number"> </TextField>
  		
   	<TextField id="emailField" hintText="email"> </TextField>  
-     </View>
+     
      	<Button class="button" onClick="addItem" top=100>Add Item</Button>
       
   		
   	    <Button class="button" onClick="closeWindow">Cancel</Button>
   	
   	
-   
+    </View>
 	</Window>
 </Alloy>
