@@ -2,9 +2,9 @@ function addItem() {
     var todos = Alloy.Collections.todo;
 
     // Create a new model for the todo collection
-    var task = Alloy.createModel('Todo', {
-        item : $.itemField.value,
-       done : 0
+    var task = Alloy.createModel('todo', {
+          item        : $.itemField.value,
+       date_completed : $.doneField.value
     });
 
     // add new model to the global collection
@@ -18,14 +18,17 @@ function addItem() {
 
     closeWindow();
 }
+/*
 function focusTextField() {
     $.itemField.focus();
    // $.doneField.focus();
 }
-
+*/
+/*
 function closeKeyboard(e) {
     e.source.blur();
 }
+*/
 
 function closeWindow() {
     $.addWin.close();

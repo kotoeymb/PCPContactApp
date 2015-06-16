@@ -1,4 +1,5 @@
 var todos = Alloy.Collections.todo;
+ todos.fetch();
 var INDEXES = {
 	'All': 0,
 	'Active': 1,
@@ -70,22 +71,24 @@ function show(e) {
 function show(event) {// to show bookdetails lists
 	var selectedBook = event.source;
 	var args = {
-		item : selectedBook.item
-	   /*done : selectedBook.done
-		author : selectedBook.author,
+      item : selectedBook.text,
+	  date_completed: selectedBook.ph
+		/*author : selectedBook.author,
 		email  : selectedBook.email*/
 	};
 	var bookview = Alloy.createController("details", args).getView();
 			$.navGroupWin.openWindow(bookview);
+}
 			
-			
+		
     if (OS_IOS) {
-        $.navGroupWin.open(bookview);
+        $.navGroupWin.open();
+        	
     }
     if (OS_ANDROID) {
         bookview.open();
     }
-}
+
 
 
 

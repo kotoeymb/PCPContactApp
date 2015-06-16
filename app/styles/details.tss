@@ -1,8 +1,14 @@
-"#titleLabel": {
+"#titlelabel": {
     font: {
-        fontSize: '30'
+        fontSize: '20'
     },
-    left: '10'
+    left: '8'
+},
+"#phonelabel": {
+    font: {
+        fontSize: '20'
+    },
+    left: '8'
 },
 "#authorLabel": {
     font: {

@@ -1,8 +1,8 @@
 <Alloy>
-    <Window class="container">
-        <View layout="vertical">
-            <Label id="titleLabel"></Label>
-         <Button id="buttonbar" >Edit</Button>
-        </View>
-    </Window>
+	<Window class="container">
+		<View layout="vertical" >
+			<Label id="titleLabel"></Label>
+			<Label id="phonelabel"></Label>
+		</View>
+	</Window>
 </Alloy>

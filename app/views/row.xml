@@ -1,8 +1,11 @@
 <Alloy>
-  <TableViewRow id="row">
-         <ImageView id="check" onClick="toggleStatus"/>  
-         <Label id="task" text = "{item}"/> 
-      <!-- <Label id="test" done ="{done}"/>  --> 
-         <ImageView id="remove" onClick="deleteTask"/>
-  </TableViewRow>
+ 
+ <TableViewRow  id="row">
+         <ImageView id="check" /> <!-- onClick="toggleStatus" -->
+         <Label id="task" text = "{item}" ph ="{date_completed}" /> 
+     <!--  <Label id="test"  /> -->
+         <ImageView id="remove" onClick="deleteTask"/> 
+</TableViewRow> 
+
+
 </Alloy>
