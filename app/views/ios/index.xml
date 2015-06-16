@@ -7,21 +7,18 @@
   <Window id="todoWin" title="ContactLists" platform="android,ios">
 
     <SearchBar id="bar" barColor="#000" platform="ios"/>
-    <TableView id="todoTable" dataCollection="todo" onClick="show"> <!--   dataFilter="whereFunction" dataTransform="transformFunction" -->
+    <TableView id="todoTable" dataCollection="todo" onClick="show"> 
       <Require src="row"/>
     </TableView>
     <Toolbar bottom="0">
                 <Items>
-                    <Button id="add" title="Add book" onClick="addToDoItem"/>
+                    <Button id="add" title="AddContact" onClick="addToDoItem"/>
                 </Items>
             </Toolbar>
     
   </Window>
 
-  <!-- Main Window for unsupported platforms 
-  <Window id="todoWin" platform="blackberry,mobileweb">
-    <Label>todo app is not supported on Blackberry or MobileWeb</Label>
-  </Window> -->
+  
  </NavigationWindow>
  
 </Alloy>
