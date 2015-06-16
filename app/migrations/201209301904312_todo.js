@@ -1,4 +1,4 @@
-migration.up = function(migrator) {
+/*migration.up = function(migrator) {
 	migrator.createTable({
 		"columns": {
 			"item":"text",
@@ -11,3 +11,4 @@ migration.up = function(migrator) {
 migration.down = function(migrator) {
 	migrator.dropTable("todo");
 };
+*/
