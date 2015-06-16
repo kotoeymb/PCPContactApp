@@ -1,10 +1,16 @@
 <Alloy>
 	<Window id="addWin" title="Add Item" class="container" modal="true">
- <View layout="vertical">
-  	<TextField id="itemField" hintText="ur name"> </TextField>
-  	<TextField id="doneField" hintText="ur Phone no"> </TextField> 
-  	<Button class="button" onClick="addItem">Add Item</Button>
-  	<Button class="button" onClick="closeWindow">Cancel</Button>
-  </View>
+    <View layout="vertical">
+ 	<TextField id="itemField" hintText="Name"> </TextField>
+
+    <TextField id="doneField" hintText="Ph number"> </TextField>
+ 		
+  	<TextField id="emailField" hintText="email"> </TextField>  
+        
+  		<Button class="button" onClick="addItem" top=100>Add Item</Button>
+  	    <Button class="button" onClick="closeWindow">Cancel</Button>
+  	
+  	
+   </View>
 	</Window>
 </Alloy>

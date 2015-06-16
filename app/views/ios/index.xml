@@ -1,67 +1,21 @@
-<!--
-<Alloy>
-    <Collection src="books"/>
-    <NavigationWindow id="navGroupWin">
-        <Window class="container" title="My Books">
-            <TableView dataCollection="books" id="bookTable" onClick="showBook">
-                <TableViewRow title="{title}" author="{author}"></TableViewRow>
-            </TableView>
-            <Toolbar bottom="0">
-                <Items>
-                    <Button id="add" title="Add book" onClick="addBook"/>
-                </Items>
-            </Toolbar>
-        </Window>
-    </NavigationWindow>>
-</Alloy>
--->
+
 <Alloy>
 	<Collection src = "todo"/>
+	
 	<NavigationWindow id="navGroupWin">
   <!-- Main Window -->
   <Window id="todoWin" title="ContactLists" platform="android,ios">
 
-    <!-- header -->
-    <View id="header">
-     <Label id="title">Contact Lists</Label> 
-      <View class="divider"/>
-      <View id="addView" onClick="addToDoItem">
-       <ImageView id="addImage"/> 
-      </View>
-    </View>
-
-    <!-- Main table for tasks
-      Use model-view binding to render the rows fo this table
-      based on the models in the given collection. "dataCollection"
-      represents the collection used to populate this table.
-      "dataWhere" is a function used to filter the list of
-      models processed within the collection. "dataTransform"
-      is a function that will be executed on each model as it
-      is rendered as a row. It gives the opportunity to modify
-      the model's values before they are applied to each row.
-    -->
+    <SearchBar id="bar" barColor="#000" platform="ios"/>
     <TableView id="todoTable" dataCollection="todo" onClick="show"> <!--   dataFilter="whereFunction" dataTransform="transformFunction" -->
       <Require src="row"/>
     </TableView>
-
-    <!-- iOS: footer with buttons -->
-    <View platform="ios" id="footer">
-      <TabbedBar onClick="showTasks" id="tabbedbar">
-        <Labels>
-          <Label>All</Label>
-          <Label>Active</Label>
-          <Label>Done</Label>
-        </Labels>
-      </TabbedBar>
-    </View>
-
-    <!-- Android: menu 
-    <Menu platform="android">
-      <MenuItem title="All" onClick="showTasks"/>
-      <MenuItem title="Active" onClick="showTasks"/>
-      <MenuItem title="Done" onClick="showTasks"/>
-    </Menu>
-   -->
+    <Toolbar bottom="0">
+                <Items>
+                    <Button id="add" title="Add book" onClick="addToDoItem"/>
+                </Items>
+            </Toolbar>
+    
   </Window>
 
   <!-- Main Window for unsupported platforms 
@@ -69,4 +23,5 @@
     <Label>todo app is not supported on Blackberry or MobileWeb</Label>
   </Window> -->
  </NavigationWindow>
+ 
 </Alloy>
