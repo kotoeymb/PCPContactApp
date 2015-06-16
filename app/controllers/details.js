@@ -5,12 +5,3 @@ $.titleLabel.text = args.item  ||'Default name';
 $.phonelabel.text = args.date_completed || 'Default phone';
 //$.authorLabel.text = args.author || 'Default author';
 
-$.buttonbar.addEventListener('click', 
-    function(e) {
-        
-        var edit = Alloy.createController('edit').getView();
-        
-        edit.open({
-            transition : Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT
-        });
-});
