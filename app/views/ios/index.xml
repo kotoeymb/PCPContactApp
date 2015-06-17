@@ -6,7 +6,7 @@
   <!-- Main Window -->
   <Window id="todoWin" title="ContactLists" platform="android,ios">
 
-    <SearchBar id="bar" barColor="#000" platform="ios"/>
+    
     <TableView id="todoTable" dataCollection="todo" onClick="show"> 
       <Require src="row"/>
     </TableView>
