@@ -3,18 +3,16 @@
 	<Collection src = "todo"/>
 	
 	<NavigationWindow id="navGroupWin">
-  <!-- Main Window -->
+  
   <Window id="todoWin" title="ContactLists" platform="android,ios">
-
-    
+<View layout="horizontal">
+	<Button id="menuButton" >Menu</Button>
+    <Button id="AddBuutton" onClick="addToDoItem">AddContact</Button>
+    </View>
     <TableView id="todoTable" dataCollection="todo" onClick="show"> 
       <Require src="row"/>
     </TableView>
-    <Toolbar bottom="0">
-                <Items>
-                    <Button id="add" title="AddContact" onClick="addToDoItem"/>
-                </Items>
-            </Toolbar>
+    
     
   </Window>
 

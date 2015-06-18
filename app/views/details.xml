@@ -1,9 +1,14 @@
 <Alloy>
 	<Window class="container">
-		<View layout="vertical" >
-			<Label id="titleLabel"></Label>
+		<View  >
+			<Label id="name">Name</Label>
+			<Label id="titlelabel"></Label>
+			<Label id="phNumber">Ph Number</Label>
 			<Label id="phonelabel"></Label>
+			<Label id="email">email</Label>
 			<Button id="editButton">Edit</Button>
+			
+
 		</View>
 	</Window>
 </Alloy>

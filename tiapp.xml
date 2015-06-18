@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
-    <id>jp.co.pcphaseMyanmar</id>
+    <id>jp.op.pcphaseMyanmar</id>
     <name>Todosample1</name>
     <version>1.0</version>
     <publisher>shwesinmayoo_mac</publisher>

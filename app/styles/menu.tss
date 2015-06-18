@@ -1,0 +1,5 @@
+
+"#favourite":{
+	height : 50,
+	width :Ti.UI.FILL,
+}

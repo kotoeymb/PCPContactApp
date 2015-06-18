@@ -1,39 +1,38 @@
 "#titlelabel": {
+	top:'10dp',
+	left:'120dp',
+	color:"blue",
     font: {
         fontSize: '20'
     },
-    left: '8'
+    
 },
 "#phonelabel": {
+	top:'50dp',
+	left:'120dp',
+	color:"blue",
     font: {
         fontSize: '20'
     },
-    left: '8'
+   
 },
-"#authorLabel": {
-    font: {
-        fontSize: '20'
-    },
-    left: '10'
-},
+
 ".container" : { 
    backgroundColor: 'white' 
 }
-
-"#headerLabel": {
-	width: Ti.UI.FILL,
-	height: 50,
-    top:0,
-    textAlign:Ti.UI.TEXT_ALIGNMENT_CENTER
-},
-".headerButton" : {
-    top: '5',
-    left: '5',
-    width: '45dp',
-    height: '45dp',
-    backgroundColor:"#cecece",
-    borderRadius:10
-},
+"#name":{
+	top:'10dp',
+	left:'10dp',
+	
+}
+"#phNumber":{
+   top:'50dp',
+	left:'10dp',	
+}
 "#editButton":{
- top:60,
+ top:200,
+}
+"#email":{
+	top:'90dp',
+	left:'10dp'
 }

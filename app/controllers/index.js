@@ -90,6 +90,14 @@ function show(event) {// to show bookdetails lists
     }
 
 
-
+$.menuButton.addEventListener('click', 
+    function(e) {
+        
+        var menu = Alloy.createController('menu').getView();
+        
+        menu.open({
+            transition : Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT
+        });
+});
 
 

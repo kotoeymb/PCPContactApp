@@ -1,8 +1,8 @@
-/*"#row": {
+"#row": {
 	height: '50dp',
 	backgroundColor: '#fff',
 	focusable: false
-}*/
+}
 
 "#row[platform=ios]": {
     selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
@@ -17,13 +17,13 @@
 }
 
 "#task": {
-	backgroundColor: 'gray',
- color:'pink',	
-  left: '50dp',
+	
+ color:'black',	
+  left: '5dp',
   right: '50dp',
   height: Ti.UI.SIZE,
 	font: {
-		fontSize: '18dp'
+		fontSize: '25dp'
 	}
 }
 "#test": {

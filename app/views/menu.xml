@@ -1,0 +1,7 @@
+<Alloy>
+	<Window>
+	<View>
+		<Button id="favourite">Favourite</Button>
+	</View>
+	</Window>
+</Alloy>
