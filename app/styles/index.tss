@@ -5,7 +5,8 @@
 }
 
 "#todoTable": {
-	top: Alloy.Globals.tableTop,
+	top:100,
+	
 	bottom: '46dp'
 }
 
@@ -91,13 +92,23 @@
 }
 "#menuButton":{
 	height:70,
-	top:10,
+	top:0,
 	left:5,
 	
 }
 "#AddBuutton":{
 	height:70,
-	top:10,
+	top:0,
 	left:230,
 	
+}
+"#menu":{
+	layout: 'vertical',
+	left: 0,
+},
+"#buttonbar":{
+	top:50,
+	width :375,
+    height:50,
+    left :0,
 }

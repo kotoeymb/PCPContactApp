@@ -1,7 +1,15 @@
 <Alloy>
 	<Window>
-	<View>
-		<Button id="favourite">Favourite</Button>
-	</View>
+	<View id="menuTopBar">
+            <ImageView id="menuLogo" class="menuLogo"/>
+            <Label id="menuVersion" class="colorwhite fn10 top5"></Label>
+            <Label id="menuVerInfo" class="colorwhite fn8 top15">Copyright 2015 Pcphase Corporation</Label>
+    </View> 
+
+		
+		<Button id="favourite">FAVOURITE</Button>
+			
+		
+	
 	</Window>
 </Alloy>

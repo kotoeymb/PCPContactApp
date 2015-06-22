@@ -1,14 +1,19 @@
 
 <Alloy>
 	<Collection src = "todo"/>
+	<Widget id="drawer" src="nl.fokkezb.drawer">
 	
+	<Window module="xp.ui" role="leftWindow" fullscreen="true">
+            <Require id="menu" src="menu" />
+        </Window>
 	<NavigationWindow id="navGroupWin">
-  
-  <Window id="todoWin" title="ContactLists" platform="android,ios">
-<View layout="horizontal">
-	<Button id="menuButton" >Menu</Button>
+  <Window id="todoWin">
+     <View layout="horizontal">
+	<Button id="menuButton" onClick="tomenu" >Menu</Button>
     <Button id="AddBuutton" onClick="addToDoItem">AddContact</Button>
-    </View>
+    
+    </View>           
+  <SearchBar id="buttonbar"></SearchBar>
     <TableView id="todoTable" dataCollection="todo" onClick="show"> 
       <Require src="row"/>
     </TableView>
@@ -18,5 +23,5 @@
 
   
  </NavigationWindow>
- 
+ </Widget>
 </Alloy>

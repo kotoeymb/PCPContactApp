@@ -1,5 +1,39 @@
 
-"#favourite":{
-	height : 50,
-	width :Ti.UI.FILL,
+
+"#favourite": {
+	         width :200,
+	         height:70,
+	         backgroundColor:"#fff",
+	         top :100,
+	         left :0,
+	         color:"#000",
+	         	font: {
+            textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
+            fontSize    : '20dp',
+            fontStyle   : 'normal',
+            fontWeight  : 'bold'
+        },
 }
+
+"#image":{
+	top:0,
+	width:350,
+	image:"/image/apple/Unknown-6",
+}
+"#menu":{
+	layout: 'vertical',
+	left: 0,
+},
+"#menuTopBar[platform=ios]":{
+	width: Ti.UI.FILL,
+	
+	//backgroundImage: "/image/apple/Unknown-6",
+	backgroundRepeat: true,
+	layout: 'vertical'
+},
+
+"#menuLogo":{
+	layout:'horizontal',
+  
+	image:"/image/apple/Unknown-6",
+},

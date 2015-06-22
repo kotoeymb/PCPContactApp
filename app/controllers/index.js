@@ -90,7 +90,7 @@ function show(event) {// to show bookdetails lists
     }
 
 
-$.menuButton.addEventListener('click', 
+/*$.menuButton.addEventListener('click', 
     function(e) {
         
         var menu = Alloy.createController('menu').getView();
@@ -98,6 +98,15 @@ $.menuButton.addEventListener('click',
         menu.open({
             transition : Ti.UI.iPhone.AnimationStyle.FLIP_FROM_LEFT
         });
-});
+});*/
 
+function tomenu() {
+Alloy.createController("menu",{}).getView().open();
+	
+}
 
+/*function toggle(e) {
+    var fn = 'toggle' + e.source.title + 'Window';
+    $.drawer[fn]();
+    
+}*/
