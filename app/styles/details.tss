@@ -1,5 +1,5 @@
 "#titlelabel": {
-	top:'10dp',
+	top:'250dp',
 	left:'120dp',
 	color:"blue",
     font: {
@@ -7,8 +7,16 @@
     },
     
 },
+"#name":{
+	top:'250dp',
+	left:'5dp',
+	color:"#000",
+	font: {
+        fontSize: '25'
+    },
+}
 "#phonelabel": {
-	top:'50dp',
+	top:'300dp',
 	left:'120dp',
 	color:"blue",
     font: {
@@ -16,23 +24,38 @@
     },
    
 },
-
+"#phone":{
+	top:'300dp',
+	left:'5dp',
+	color:"#000",
+	font: {
+        fontSize: '25'
+    },
+}
+"#emaillabel": {
+	top:'350dp',
+	left:'120dp',
+	color:"blue",
+    font: {
+        fontSize: '20'
+    },
+   
+},
+"#email":{
+	top:'350dp',
+	left:'5dp',
+	color:"#000",
+	font: {
+        fontSize: '25'
+    },
+}
 ".container" : { 
    backgroundColor: 'white' 
 }
-"#name":{
-	top:'10dp',
-	left:'10dp',
-	
-}
-"#phNumber":{
-   top:'50dp',
-	left:'10dp',	
-}
-"#editButton":{
- top:200,
-}
-"#email":{
-	top:'90dp',
-	left:'10dp'
+
+"#contactpic":{
+	top:'5dp',
+	height:'200dp',
+	width:'350dp',
+	image:"/images/profile/images",
 }

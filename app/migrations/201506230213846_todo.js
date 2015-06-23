@@ -7,7 +7,9 @@ migration.up = function(db) {
 		"item":"text",
 			"done":"integer",
 			"date_completed" :"text",
-			"user_id" :"text"
+			"user_id" :"text",
+			
+
 		}
 	});
 	for(var i = 0; i < preload_data.length; i++) {

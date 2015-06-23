@@ -1,0 +1,16 @@
+<Alloy>
+	<Collection src="todo"/>
+	<Window module="xp.ui" role="leftWindow" fullscreen="true">
+		<Require id="menu" src="menu" />
+	</Window>
+	<NavigationWindow id="navGroupWin">
+		<Window id="todoWin">
+			<View layout="horizontal">
+			</View>
+			<SearchBar id="buttonbar"></SearchBar>
+			<TableView id="todoTable" dataCollection="todo">
+				<Require src="row"/>
+			</TableView>
+		</Window>
+	</NavigationWindow>
+</Alloy>

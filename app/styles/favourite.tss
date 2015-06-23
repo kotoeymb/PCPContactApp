@@ -1,13 +1,7 @@
-"#todoWin": {
+"#favWin": {
 	fullscreen: false,
-	navBarHidden: true,
+	navBarHidden: false,
 	exitOnClose: true
-}
-
-"#todoTable": {
-	top:100,
-	
-	bottom: '46dp'
 }
 
 "#menuButton":{

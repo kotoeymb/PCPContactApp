@@ -4,35 +4,35 @@
 }
 
 "#itemField":{
-	left:'10dp',
-	width: '90%',
-	top: '70dp',
+	left:'30dp',
+	width: '70%',
+	top: '40dp',
 	returnKeyType: Ti.UI.RETURNKEY_DONE
 	
 }
 "#doneField":{
-	left:'10dp',
-	width: '90%',
-	top: '70dp',
+	left:'30dp',
+	width: '70%',
+	top: '40dp',
 	
 	returnKeyType: Ti.UI.RETURNKEY_DONE
 }
 "#emailField":{
-	left:'10dp',
-	width: '90%',
-	top: '75dp',
+	left:'30dp',
+	width: '70%',
+	top: '40dp',
 	
 	returnKeyType: Ti.UI.RETURNKEY_DONE
 }
 ".addButton":{
 	bottom:0,
-	height:70,
+	height:120,
 	left:5,
 	
 }
 ".cancleButton":{
 	bottom:0,
-	height:70,
+	height:120,
 	left:230,
 	
 }
@@ -45,8 +45,10 @@
             fontWeight  : 'bold'
         },
 }
-".buttonview":{
-	bottom:0,
-	height:70,
-	
+
+"#contactpic":{
+	top:'30dp',
+	height:'200dp',
+	width:'350dp',
+	image:"/images/profile/images",
 }
