@@ -1,26 +1,13 @@
 <Alloy>
 	<Window id="addWin" title="Add Item" class="container" modal="true">
-		
-		
-    <View layout="vertical">
-    	
- 	<TextField id="itemField" hintText="Name" class="bowl"> </TextField>
+		<View layout="vertical">
+			<TextField id="itemField" hintText="Name" class="bowl"></TextField>
+			<TextField id="doneField" hintText="Ph number" class="bowl"></TextField>
+			<TextField id="emailField" hintText="email" class="bowl"></TextField>
+			
+			<Button class="addButton" onClick="addItem"  top=100>Add Item</Button>
+			<Button class="cancleButton" onClick="closeWindow">Cancel</Button>
 
-    <TextField id="doneField" hintText="Ph number" class="bowl"> </TextField>
- 		
-  	<TextField id="emailField" hintText="email" class="bowl"> </TextField>
-  	<Label>   </Label><Label>   </Label> <Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label><Label>   </Label>
-  	<Label>   </Label>
-    <View  layout="horizontal" class="buttonview">
-        <Button class="addButton" onClick="addItem" >Add Item</Button>
-      
-  		
-  	    <Button class="cancleButton" onClick="closeWindow">Cancel</Button>
-      
-     </View>
-     	
-  	
-  	
-    </View>
+		</View>
 	</Window>
 </Alloy>

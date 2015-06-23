@@ -5,11 +5,11 @@
 	
 	<Window module="xp.ui" role="leftWindow" fullscreen="true">
             <Require id="menu" src="menu" />
-        </Window>
+    </Window> 
 	<NavigationWindow id="navGroupWin">
   <Window id="todoWin">
      <View layout="horizontal">
-	<Button id="menuButton" onClick="tomenu" >Menu</Button>
+<!--	<Button id="menuButton" onClick="tomenu" >Menu</Button> -->
     <Button id="AddBuutton" onClick="addToDoItem">AddContact</Button>
     
     </View>           

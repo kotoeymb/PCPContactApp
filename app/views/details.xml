@@ -1,13 +1,11 @@
 <Alloy>
-	<Window class="container">
-		<View  >
-			<Label id="name">Name</Label>
-			<Label id="titlelabel"></Label>
-			<Label id="phNumber">Ph Number</Label>
-			<Label id="phonelabel"></Label>
-			<Label id="email">email</Label>
-			<Button id="editButton">Edit</Button>
-			
+	<Window id="detailWin" title="Add Item" class="container" modal="true">
+		<View >
+			<TextField  id="useridlabel" hintText="userid" class="bowl">userid</TextField>
+			<TextField  id="titlelabel" hintText="Name" class="bowl">Name</TextField>
+			<TextField  id="phonelabel" hintText="Ph number" class="bowl">Phone_Number</TextField>
+			<Button class="updateButton" onClick="addItem" top=100 >Update</Button> 
+			<Button class="cancleButton" onClick="closeWindow" top=130>Cancel</Button>
 
 		</View>
 	</Window>

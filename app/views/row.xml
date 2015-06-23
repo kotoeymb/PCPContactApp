@@ -1,11 +1,11 @@
 <Alloy>
- 
- <TableViewRow  id="row">
-         
-         <Label id="task" text = "{item}" ph ="{date_completed}" /> 
+
+  <TableViewRow  id="row">
+        
+         <Label id="task" text = "{item}" ph ="{date_completed}" user_id="{user_id}"/> 
+    <Button  class="databtn"  onLongpress="deleteTask" user_id="{user_id}">Delete</Button>
      
-         <ImageView id="remove" onClick="deleteTask"/> 
 </TableViewRow> 
 
-
 </Alloy>
+
