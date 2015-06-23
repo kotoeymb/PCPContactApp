@@ -1,20 +1,12 @@
 <Alloy>
 	<Window id="menu" >
 		<View >
-	
-    <Button id="BackButton" onClick="toback" >Back</Button>
-    
-    </View> 
-	<ImageView id="image"></ImageView> 
-
-		<ListView id="listview">
+			<Button id="BackButton" onClick="toback" >Back</Button>
+		</View>
+		<ListView id="listview" onItemclick="favList">
 			<ListSection>
-			<ListItem>favourite</ListItem>
+				<ListItem title="Favourites"/>
 			</ListSection>
 		</ListView>
-		
-			
-		
-	
 	</Window>
 </Alloy>

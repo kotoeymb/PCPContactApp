@@ -10,7 +10,6 @@ if ($model) {
 }
 
 function toggleFav(e) {
-	//alert($.phonelabel.value);
 	var s = e.source;
 	Alloy.Collections.todo.updateRecord({
 		query : {
@@ -20,5 +19,5 @@ function toggleFav(e) {
 			whereValue : [s.user_id]
 		}
 	});
-	todo.fetch();
+	todos.fetch();
 }

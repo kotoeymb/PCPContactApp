@@ -5,42 +5,16 @@
 }
 
 "#row[platform=ios]": {
-    selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
-}
-
-"#check": {
-	image: '/tick_gray_64.png',
-	//image: 'images/tru.png',
-	left: 0,
-	height: '50dp',
-	width: '50dp'
+	selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
 }
 
 "#task": {
-	
- color:'black',	
-  left: '5dp',
-  right: '50dp',
-  height: Ti.UI.SIZE,
-	font: {
-		fontSize: '25dp'
-	}
-}
-"#test": {
-  left: '50dp',
-  right: '50dp',
-  height: Ti.UI.SIZE,
-	font: {
-		fontSize: '18dp'
-	}
+	color: 'black',
+	left: '10dp',
+	right: '50dp',
+	height: Ti.UI.SIZE
 }
 
-"#remove": {
-	image: 'images/delete.png',
-	right: 0,
-	height: '30dp',
-	width: '30dp'
-}
 ".databtn":{
-	right:20,
+	right: '10dp'
 }
