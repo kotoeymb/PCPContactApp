@@ -2,8 +2,8 @@ function addItem() {
 	var todos = Alloy.Collections.todo;
 	var task = Alloy.Collections.todo.insertRecord({
 		query : {
-			columns : ["user_id", "item", "date_completed"],
-			value : [Alloy.Collections.todo.guid(), $.itemField.value, $.doneField.value]
+			columns : ["user_id", "item", "date_completed", "done"],
+			value : [Alloy.Collections.todo.guid(), $.itemField.value, $.doneField.value, $.emailField.value]
 		}
 	});
 

@@ -1,9 +1,11 @@
 <Alloy>
 	<Window id="detailWin" title="Add Item" class="container" modal="true">
 		<View >
-			<TextField  id="useridlabel" hintText="userid" class="bowl">userid</TextField>
+			<ImageView id="contactpic"></ImageView>
 			<TextField  id="titlelabel" hintText="Name" class="bowl">Name</TextField>
 			<TextField  id="phonelabel" hintText="Ph number" class="bowl">Phone_Number</TextField>
+			<TextField  id="emaillabel" hintText="Email" class="bowl">Email</TextField>
+			
 			<Button class="updateButton" onClick="addItem" top=100 >Update</Button> 
 			<Button class="cancleButton" onClick="closeWindow" top=130>Cancel</Button>
 

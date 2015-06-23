@@ -5,10 +5,10 @@
 			<TextField id="itemField" hintText="Name" class="bowl"></TextField>
 			<TextField id="doneField" hintText="Ph number" class="bowl"></TextField>
 			<TextField id="emailField" hintText="email" class="bowl"></TextField>
-			
-			<Button class="addButton" onClick="addItem"  top=100>Add Item</Button>
+		<View layout="horizontal">	
+			<Button class="addButton" onClick="addItem"  >Add Item</Button>
 			<Button class="cancleButton" onClick="closeWindow">Cancel</Button>
-
+        </View>
 		</View>
 	</Window>
 </Alloy>

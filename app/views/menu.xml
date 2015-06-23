@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="menu">
+	<Window id="menu" >
 		<View layout="horizontal">
 	
     <Button id="BackButton" onClick="toback" >Back</Button>

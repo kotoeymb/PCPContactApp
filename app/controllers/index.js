@@ -35,7 +35,8 @@ function show(event) {// to show bookdetails lists
 	var args = {
      	user_id: selectedBook.user_id,
       item : selectedBook.text,
-	  date_completed: selectedBook.ph
+	  date_completed: selectedBook.ph,
+	  done: selectedBook.email
 	};
 	var bookview = Alloy.createController("details", args).getView();
 			$.navGroupWin.openWindow(bookview);
