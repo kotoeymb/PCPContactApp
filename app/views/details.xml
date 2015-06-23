@@ -9,8 +9,14 @@
 			<TextField  id="phonelabel" hintText="Ph number" class="bowl">Phone_Number</TextField>
 			<TextField  id="emaillabel" hintText="Email" class="bowl">Email</TextField>
 			
+<<<<<<< HEAD
 			<Button class="updateButton" onClick="addItem" top=450 right=10>Update</Button> 
 			<Button class="cancleButton" onClick="closeWindow" top=450 left=10>Cancel</Button>
+=======
+
+			<Button class="updateButton" onClick="addItem" top=100 >Update</Button> 
+			<Button class="cancleButton" onClick="closeWindow" top=130>Cancel</Button>
+>>>>>>> 3c5bf728bc43d69ba55e5549d583b5968b5c6c8a
 
 		</View>
 	</Window>

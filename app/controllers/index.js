@@ -33,6 +33,7 @@ function showTasks(e) {
 function show(event) {// to show bookdetails lists
 	var selectedBook = event.source;
 	var args = {
+
      	user_id: selectedBook.user_id,
       item : selectedBook.text,
 	  date_completed: selectedBook.ph,
