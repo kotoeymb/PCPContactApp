@@ -5,4 +5,11 @@
 }
 "#listview":{
 	top: '50dp'
+
+}
+".bowl":{
+	color:"#000",
+	font: {
+        fontSize: '25'
+    }
 }
