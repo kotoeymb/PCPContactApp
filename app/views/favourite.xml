@@ -5,6 +5,7 @@
 	</Window>
 	<NavigationWindow id="navGroupWin">
 		<Window id="todoWin">
+			<Button id="bavkbutton">Back</Button>
 			<View layout="horizontal">
 			</View>
 			<SearchBar id="buttonbar"></SearchBar>

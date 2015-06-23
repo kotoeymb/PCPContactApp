@@ -1,7 +1,7 @@
 "#titlelabel": {
 	top:'250dp',
 	left:'120dp',
-	color:"blue",
+	color:"#000",
     font: {
         fontSize: '20'
     },
@@ -18,7 +18,7 @@
 "#phonelabel": {
 	top:'300dp',
 	left:'120dp',
-	color:"blue",
+	color:"#000",
     font: {
         fontSize: '20'
     },
@@ -35,7 +35,7 @@
 "#emaillabel": {
 	top:'350dp',
 	left:'120dp',
-	color:"blue",
+	color:"#000",
     font: {
         fontSize: '20'
     },
@@ -55,7 +55,7 @@
 
 "#contactpic":{
 	top:'5dp',
-	height:'200dp',
-	width:'350dp',
-	image:"/images/profile/images",
+	height:'230dp',
+	width:Ti.UI.FILL,
+	image:"/images/profile/images-3.png",
 }

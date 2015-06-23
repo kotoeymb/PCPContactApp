@@ -5,22 +5,16 @@
 }
 
 "#row[platform=ios]": {
-    selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
+	selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
 }
 
-
-
 "#task": {
-	
- color:'black',	
-  left: '5dp',
-  right: '50dp',
-  height: Ti.UI.FILL,
-	font: {
-		fontSize: '25dp'
-	}
+	color: 'black',
+	left: '10dp',
+	right: '50dp',
+	height: Ti.UI.SIZE
 }
 
 ".databtn":{
-	right:20,
+	right: '10dp'
 }

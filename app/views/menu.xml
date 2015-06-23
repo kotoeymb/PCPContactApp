@@ -1,19 +1,14 @@
 <Alloy>
 	<Window id="menu" >
 		<View >
-	
-    <Button id="BackButton" onClick="toback" >Back</Button>
-    <ImageView id="image"></ImageView>
-    <TableView id="table">
-    	<TableViewRow title="FavouriteList" class="bowl"></TableViewRow>
-    	
-    </TableView>
-    </View> 
-	
-            
-		
-		
-		
-	
+			<Button id="BackButton" onClick="toback" >
+				Back
+			</Button>
+		</View>
+		<ListView id="listview" onItemclick="favList">
+			<ListSection>
+				<ListItem title="Favourites"/>
+			</ListSection>
+		</ListView>
 	</Window>
 </Alloy>
