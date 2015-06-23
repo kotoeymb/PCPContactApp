@@ -1,14 +1,18 @@
 <Alloy>
 	<Window id="menu" >
-		<View layout="horizontal">
+		<View >
 	
     <Button id="BackButton" onClick="toback" >Back</Button>
     
     </View> 
 	<ImageView id="image"></ImageView> 
 
+		<ListView id="listview">
+			<ListSection>
+			<ListItem>favourite</ListItem>
+			</ListSection>
+		</ListView>
 		
-		<Button id="favourite">FAVOURITE</Button>
 			
 		
 	
