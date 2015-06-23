@@ -4,7 +4,7 @@
 	         width :200,
 	         height:70,
 	         backgroundColor:"#fff",
-	         top :100,
+	         top :250,
 	         left :0,
 	         color:"#000",
 	         	font: {
@@ -16,24 +16,12 @@
 }
 
 "#image":{
-	top:0,
-	width:350,
+	top:100,
+	height:150,
+	width:150,
 	image:"/images/apple/Unknown-6",
 }
-"#menu":{
-	layout: 'vertical',
-	left: 0,
-},
-"#menuTopBar[platform=ios]":{
-	width: Ti.UI.FILL,
-	
-	//backgroundImage: "/image/apple/Unknown-6",
-	backgroundRepeat: true,
-	layout: 'vertical'
-},
-
-"#menuLogo":{
-	layout:'horizontal',
-  
-	image:"/image/apple/Unknown-6",
-},
+"#BackButton":{
+	top:10,
+	right:0,
+}

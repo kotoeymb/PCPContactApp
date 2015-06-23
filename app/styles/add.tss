@@ -50,3 +50,9 @@
 	height:70,
 	
 }
+"#contactpic":{
+	top:'10dp',
+	height:'150dp',
+	width:'150dp',
+	image:"/images/profile/images",
+}

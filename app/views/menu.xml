@@ -1,5 +1,10 @@
 <Alloy>
-	<Window>
+	<Window id="menu">
+		<View layout="horizontal">
+	
+    <Button id="BackButton" onClick="toback" >Back</Button>
+    
+    </View> 
 	<ImageView id="image"></ImageView> 
 
 		
