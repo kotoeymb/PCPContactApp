@@ -5,7 +5,8 @@ exports.definition = {
 			"item":"text",
 			"done":"integer",
 			"date_completed" :"text",
-			"user_id" :"text"
+			"user_id" :"text",
+			 "email" : "text"
 		},
 		"adapter": {
 			"type": "sql",
