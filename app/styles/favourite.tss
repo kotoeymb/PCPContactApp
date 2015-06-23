@@ -1,0 +1,28 @@
+"#favWin": {
+	fullscreen: false,
+	navBarHidden: false,
+	exitOnClose: true
+}
+
+"#menuButton":{
+	height:'70dp',
+	top:0,
+	left:'5dp',
+	
+}
+"#AddBuutton":{
+	height:'70dp',
+	top:0,
+	left:'240dp',
+	
+}
+"#menu":{
+	layout: 'vertical',
+	left: '0dp',
+},
+"#buttonbar":{
+	top:'50dp',
+	width :'375dp',
+    height:'50dp',
+    left :'0dp',
+}

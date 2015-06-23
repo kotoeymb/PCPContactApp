@@ -1,0 +1,12 @@
+<Alloy>
+	<Collection src="todo"/>
+	<NavigationWindow id="navGroupWin">
+		<Window id="favWin" title="Favourites" class="container" modal="true">
+			<View layout="horizontal">
+				<TableView id="todoTable" dataCollection="todo">
+					<Require src="favrow"/>
+				</TableView>
+			</View>
+		</Window>
+	</NavigationWindow>
+</Alloy>
