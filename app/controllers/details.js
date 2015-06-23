@@ -1,12 +1,10 @@
 var args = arguments[0] || {};
-// console.log("title:" + args.title + ", author: " + args.author);
-
 $.titlelabel.value = args.item || 'Default name';
 $.phonelabel.value = args.date_completed || 'Default phone';
 $.emaillabel.value = args.done || 'Default author';
 
 function addItem() {
-	//alert($.phonelabel.value);
+	
 	var todo=Alloy.Collections.todo;
 	 Alloy.Collections.todo.updateRecord({
 		 query : {

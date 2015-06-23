@@ -1,19 +1,6 @@
 
 
-"#favourite": {
-	         width :150,
-	         height:70,
-	         backgroundColor:"#fff",
-	         top :250,
-	         left :0,
-	         color:"blue",
-	         	font: {
-            textAlign:Ti.UI.TEXT_ALIGNMENT_LEFT,
-            fontSize    : '20dp',
-            fontStyle   : 'normal',
-            fontWeight  : 'bold'
-        },
-}
+
 
 "#image":{
 	top:100,
@@ -26,6 +13,13 @@
 	right:10,
 	height:'50dp',
 }
-"#listview":{
+
+"#table":{
 	top:260,
+}
+".bowl":{
+	color:"#000",
+	font: {
+        fontSize: '25'
+    },
 }

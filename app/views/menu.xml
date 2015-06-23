@@ -3,17 +3,16 @@
 		<View >
 	
     <Button id="BackButton" onClick="toback" >Back</Button>
-    
+    <ImageView id="image"></ImageView>
+    <TableView id="table">
+    	<TableViewRow title="FavoriteList" class="bowl"></TableViewRow>
+    	
+    </TableView>
     </View> 
-	<ImageView id="image"></ImageView> 
-
-		<ListView id="listview">
-			<ListSection>
-			<ListItem>favourite</ListItem>
-			</ListSection>
-		</ListView>
+	
+            
 		
-			
+		
 		
 	
 	</Window>
