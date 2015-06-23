@@ -1,35 +1,42 @@
 function addItem() {
-    var todos = Alloy.Collections.todo;
+	var todos = Alloy.Collections.todo;
+	var task = Alloy.Collections.todo.insertRecord({
+		query : {
+			columns : ["user_id", "item", "date_completed"],
+			value : [Alloy.Collections.todo.guid(), $.itemField.value, $.doneField.value]
+		}
+	});
 
-    // Create a new model for the todo collection
-    var task = Alloy.createModel('todo', {
-          item        : $.itemField.value,
-       date_completed : $.doneField.value
-    });
+	// Create a new model for the todo collection
+	/*  var task = Alloy.createModel('todo', {
+	item        : $.itemField.value,
+	date_completed : $.doneField.value
+	});
+	*/
+	// add new model to the global collection
+	todos.add(task);
 
-    // add new model to the global collection
-    todos.add(task);
+	// save the model to persistent storage
+	// task.save();
 
-    // save the model to persistent storage
-     task.save();
+	// reload the tasks
+	todos.fetch();
 
-    // reload the tasks
-    todos.fetch();
-
-    closeWindow();
+	closeWindow();
 }
+
 /*
-function focusTextField() {
-    $.itemField.focus();
-   // $.doneField.focus();
-}
-*/
+ function focusTextField() {
+ $.itemField.focus();
+ // $.doneField.focus();
+ }
+ */
 /*
-function closeKeyboard(e) {
-    e.source.blur();
-}
-*/
+ function closeKeyboard(e) {
+ e.source.blur();
+ }
+ */
 
 function closeWindow() {
-    $.addWin.close();
+	$.addWin.close();
 }
