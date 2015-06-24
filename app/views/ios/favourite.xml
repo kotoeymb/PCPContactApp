@@ -8,7 +8,7 @@
 			<View >
 				
 				<TableView id="todoTable" dataCollection="todo">
-					<Require src="favrow"/>
+					<!--<Require src="favrow"/>-->
 				</TableView>
 				<Toolbar bottom="0">
                 <Items>

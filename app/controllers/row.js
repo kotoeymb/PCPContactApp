@@ -1,3 +1,27 @@
+var todos = Alloy.Collections.todo;
+
+if ($model) {
+	id = $model.id;
+	if ($model.get('done') == 1) {
+		$.fav.image = '/images/contactimages/fav.jpg';  // favourite star
+	} else {
+		$.fav.image = '/images/contactimages/favo.png'; //  star
+	}
+}
+
+function toggleFav(e) {
+	var s = e.source;
+	alert(s.user_id);
+	Alloy.Collections.todo.updateRecord({
+		query : {
+			columns : ["done"],
+			values : [s.done == 1? 0 : 1],
+			whereKey : ["user_id"],
+			whereValue : [s.user_id]
+		}
+	});
+	todos.fetch();
+}
 
 
 var todo = Alloy.Collections.todo;

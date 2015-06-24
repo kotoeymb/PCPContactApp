@@ -1,5 +1,5 @@
 "#BackButton":{
-	top: '30dp',
+	top: '10dp',
 	right: '10dp',
 	height: '50dp'
 }

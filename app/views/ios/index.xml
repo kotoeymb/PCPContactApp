@@ -7,7 +7,7 @@
 	<NavigationWindow id="navGroupWin">
   <Window id="todoWin">
      <View layout="horizontal">
-	<Button id="menuButton" onClick="tomenu" >Menu</Button>
+	<Button id="menuButton" onClick="tomenu" >Favo</Button>
     <Button id="AddBuutton" onClick="addToDoItem">AddContact</Button>
     
     </View>           

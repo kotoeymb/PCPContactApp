@@ -1,11 +1,13 @@
 var todos = Alloy.Collections.todo;
 todos.fetch();
+/*
 var INDEXES = {
 	'All' : 0,
 	'Active' : 1,
 	'Done' : 2
 };
 var whereIndex = INDEXES['All'];
+*/
 
 $.todoWin.open();
 
@@ -18,7 +20,8 @@ function addToDoItem() {
 }
 
 // Show task list based on selected status type
-function showTasks(e) {
+/*
+function showTask(e) {
 	if ( typeof e.index !== 'undefined' && e.index !== null) {
 		whereIndex = e.index;
 		// TabbedBar
@@ -28,7 +31,7 @@ function showTasks(e) {
 	}
 	todos.fetch();
 }
-
+*/
 // Open bookdetails Window
 function show(event) {// to show bookdetails lists
 	var selectedBook = event.source;

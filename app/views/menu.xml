@@ -1,11 +1,9 @@
 <Alloy>
 	<Window id="menu" >
 		<View >
-			<Button id="BackButton" onClick="toback" >
-				Back
-			</Button>
+			<Button id="BackButton">Back</Button>
 		</View>
-		<ListView id="listview" onItemclick="favList">
+		<ListView id="listview"> <!-- onItemclick="favList" -->
 			<ListSection>
 				<ListItem title="Favourites"/>
 			</ListSection>

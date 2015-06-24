@@ -10,11 +10,18 @@
 
 "#task": {
 	color: 'black',
-	left: '10dp',
+	left: '50dp',
 	right: '50dp',
 	height: Ti.UI.SIZE
 }
 
 ".databtn":{
 	right: '10dp'
+}
+
+"#fav": {
+	left: '10dp',
+	width: '30dp',
+	height: 'auto',
+	image: '/images/fav.png'
 }

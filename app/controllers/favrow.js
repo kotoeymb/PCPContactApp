@@ -1,4 +1,4 @@
-var todos = Alloy.Collections.todo;
+/*var todos = Alloy.Collections.todo;
 
 if ($model) {
 	id = $model.id;
@@ -21,3 +21,4 @@ function toggleFav(e) {
 	});
 	todos.fetch();
 }
+*/
