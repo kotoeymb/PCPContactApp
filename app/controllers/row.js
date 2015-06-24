@@ -11,7 +11,7 @@ if ($model) {
 
 function toggleFav(e) {
 	var s = e.source;
-	alert(s.user_id);
+	alert("Do u want to add?");
 	Alloy.Collections.todo.updateRecord({
 		query : {
 			columns : ["done"],
@@ -34,6 +34,6 @@ function deleteTask(event) {
 		}
 	});
 	
-	alert("Users deleted");
+	alert("Do u want to delete?");
 	todo.fetch();
 }

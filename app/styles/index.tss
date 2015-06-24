@@ -5,30 +5,39 @@
 }
 
 "#todoTable": {
-	top:100,
-	
+	top:'120dp',
 	bottom: '46dp'
 }
 
 "#menuButton":{
 	height:'70dp',
-	top:0,
+	top:'10dp',
 	left:'5dp',
-	
+	width:'70dp',
 }
-"#AddBuutton":{
-	height:'70dp',
-	top:0,
-	left:'240dp',
-	
-}
+
 "#menu":{
 	layout: 'vertical',
 	left: '0dp',
 },
 "#buttonbar":{
-	top:'50dp',
-	width :'375dp',
+	top:'70dp',
+	width :Ti.UI.FILL,
     height:'50dp',
     left :'0dp',
+}
+"#addView": {
+	top: '5dp',
+	height:'70dp',
+	right:"5dp" ,
+	width: "50dp"
+}
+
+"#addImage": {
+	height: '60dp',
+	width: '50dp',
+	
+	
+	image: "/images/addbutton/images-6.jpeg",
+	
 }

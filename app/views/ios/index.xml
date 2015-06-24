@@ -4,12 +4,14 @@
 	
 	
 	 
-	<NavigationWindow id="navGroupWin">
+	<NavigationWindow id="navGroupWin" >
   <Window id="todoWin">
-     <View layout="horizontal">
-	<Button id="menuButton" onClick="tomenu" >Favo</Button>
-    <Button id="AddBuutton" onClick="addToDoItem">AddContact</Button>
+     <View >
+	<Button id="menuButton" onClick="tomenu" >Favourite</Button>
     
+    <View id="addView" onClick="addToDoItem">
+        <ImageView id="addImage"/>
+      </View>
     </View>           
   <SearchBar id="buttonbar"></SearchBar>
     <TableView id="todoTable" dataCollection="todo" onClick="show"> 

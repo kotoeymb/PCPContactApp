@@ -1,15 +1,13 @@
 var todos = Alloy.Collections.todo;
 todos.fetch();
-/*
-var INDEXES = {
-	'All' : 0,
-	'Active' : 1,
-	'Done' : 2
-};
-var whereIndex = INDEXES['All'];
-*/
 
-$.todoWin.open();
+if(OS_IOS) { 
+   $.navGroupWin.open(); 
+} 
+if (OS_ANDROID) { 
+   $.index.open(); 
+}
+//$.todoWin.open();
 
 todos.fetch();
 
