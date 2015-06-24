@@ -15,8 +15,8 @@ todos.fetch();
 
 // open the "add item" window
 function addToDoItem() {
-	Alloy.createController("add", {}).getView().open();
-
+	var add=Alloy.createController("add", {}).getView();
+    $.navGroupWin.openWindow(add);
 }
 
 // Show task list based on selected status type
@@ -55,7 +55,7 @@ if (OS_ANDROID) {
 }
 
 function tomenu() {
-	Alloy.createController("menu", {}).getView().open();
-
+	var menu=Alloy.createController("menu", {}).getView();
+    $.navGroupWin.openWindow(menu);
 }
 

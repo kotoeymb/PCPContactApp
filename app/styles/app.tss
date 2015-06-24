@@ -6,3 +6,6 @@
 	color: '#000'
 }
 
+"#navGroupWin":{
+	backgroundColor: '#fff',
+}

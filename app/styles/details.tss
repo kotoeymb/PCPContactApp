@@ -55,7 +55,7 @@
 
 "#contactpic":{
 	top:'5dp',
-	height:'230dp',
+	height:'200dp',
 	width:Ti.UI.FILL,
 	image:"/images/profile/images-3.png",
 }

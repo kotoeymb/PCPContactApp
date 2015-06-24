@@ -4,7 +4,7 @@
 	height: '50dp'
 }
 "#listview":{
-	top: '50dp'
+	top: '10dp'
 
 }
 ".bowl":{
