@@ -1,5 +1,6 @@
 "#detailWin":{
-	barColor: '#fff'
+	barColor: '#fff',
+	title: 'Information'
 }
 "#titlelabel": {
 	top: '250dp',

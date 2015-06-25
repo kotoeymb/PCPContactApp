@@ -3,9 +3,9 @@
 		<View layout="vertical">
 			<ImageView id="contactpic"></ImageView>
 			<TextField id="itemField" hintText="Name" class="bowl"></TextField>
-			<TextField id="doneField" hintText="Ph number" class="bowl"></TextField>
-			<TextField id="emailField" hintText="email" class="bowl"></TextField>
-			<Button class="addButton" onClick="addItem"  >Add Item</Button>
+			<TextField id="doneField" hintText="Phone" class="bowl"></TextField>
+			<TextField id="emailField" hintText="Email" class="bowl"></TextField>
+			<Button class="addButton" onClick="addItem">Add Item</Button>
 		</View>
 	</Window>
 </Alloy>

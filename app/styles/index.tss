@@ -1,37 +1,30 @@
 "#todoWin": {
-fullscreen: false,
-navBarHidden: true,
-exitOnClose: true
+	fullscreen: false,
+	navBarHidden: false,
+	exitOnClose: true,
+	title: 'Contacts',
 }
 
 "#todoTable": {
-top: '120dp',
-bottom: '46dp'
-}
-
-"#menuButton":{
-height: '70dp',
-top: '10dp',
-left: '5dp',
-width: '70dp'
+	bottom: '46dp'
 }
 
 "#buttonbar":{
-top: '70dp',
-width:Ti.UI.FILL,
-height: '50dp',
-left: '0dp'
+	top: '70dp',
+	width:Ti.UI.FILL,
+	height: '50dp',
+	left: '0dp'
 }
 "#addView": {
-top: '5dp',
-height: '70dp',
-right: "5dp" ,
-width: "50dp"
+	top: '5dp',
+	height: '70dp',
+	right: "5dp" ,
+	width: "50dp"
 }
 
 "#addImage": {
-height: '60dp',
-width: '50dp',
-image: "/images/addbutton/images-6.jpeg"
-
+	width: '25dp',
+	height: 'auto',
+	bottom: '15dp',
+	image: "/images/add.png"
 }

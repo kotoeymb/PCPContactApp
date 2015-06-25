@@ -9,3 +9,6 @@
 "#navGroupWin":{
 	backgroundColor: '#fff'
 }
+"#row": {
+	height: '40dp'
+}

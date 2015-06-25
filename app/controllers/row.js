@@ -3,9 +3,9 @@ var todos = Alloy.Collections.todo;
 if ($model) {
 	id = $model.id;
 	if ($model.get('done') == 1) {
-		$.fav.image = '/images/fav.png';
+		$.fav.image = '/images/y_fav.png';
 	} else {
-		$.fav.image = '/images/fav_no.png';
+		$.fav.image = '/images/n_fav.png';
 	}
 }
 

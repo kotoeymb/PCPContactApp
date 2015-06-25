@@ -1,15 +1,7 @@
 var todos = Alloy.Collections.todo;
 todos.fetch();
 
-if (OS_IOS) {
-	$.navGroupWin.open();
-}
-if (OS_ANDROID) {
-	$.index.open();
-}
-
-
-todos.fetch();
+var toFav = Ti.UI.createB
 
 function addToDoItem() {
 	var add = Alloy.createController("add", {}).getView();
@@ -40,5 +32,12 @@ if (OS_ANDROID) {
 function toFav() {
 	var toFav = Alloy.createController("favourite", {}).getView();
 	$.navGroupWin.openWindow(toFav);
+}
+
+if (OS_IOS) {
+	$.navGroupWin.open();
+}
+if (OS_ANDROID) {
+	$.index.open();
 }
 

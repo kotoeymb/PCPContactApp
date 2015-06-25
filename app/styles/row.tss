@@ -1,9 +1,3 @@
-"#row": {
-	height: '50dp',
-	backgroundColor: '#fff',
-	focusable: false
-}
-
 "#row[platform=ios]": {
 	selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
 }
@@ -23,5 +17,5 @@
 	left: '10dp',
 	width: '30dp',
 	height: 'auto',
-	image: '/images/fav_no.png'
+	image: '/images/n_fav.png'
 }

@@ -1,15 +1,14 @@
 <Alloy>
 	<Collection src = "todo"/>
-	<NavigationWindow id="navGroupWin" >
+	<NavigationWindow id="navGroupWin">
 		<Window id="todoWin">
-			<View >
-
-				<Button id="menuButton" onClick="toFav" >Favourite</Button>
-				<View id="addView" onClick="addToDoItem">
-					<ImageView id="addImage"/>
-				</View>
-			</View>
-			<SearchBar id="buttonbar"></SearchBar>
+			<LeftNavButton>
+				<Button onClick="toFav" >Favourite</Button>
+			</LeftNavButton>
+			<RightNavButton>
+				<Button onClick="addToDoItem">Add</Button>
+			</RightNavButton>
+			
 			<TableView id="todoTable" dataCollection="todo" onClick="show">
 				<Require src="row"/>
 			</TableView>

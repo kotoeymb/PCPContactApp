@@ -1,5 +1,5 @@
 <Alloy>
-	<TableViewRow  id="row">
+	<TableViewRow id="row">
 
 		<ImageView id="fav" onClick="toggleFav" user_id="{user_id}" done="{done}" />
 		<Label id="task" text = "{item}" ph ="{date_completed}" user_id="{user_id}" email="{done}"/>
