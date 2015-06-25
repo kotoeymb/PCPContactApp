@@ -29,8 +29,6 @@
 ".bowl":{
 	color: "#000",
 	font: {
-
-		fontSize: '20dp',
 		fontStyle: 'normal',
 		fontWeight: 'bold'
 	}

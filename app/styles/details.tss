@@ -5,49 +5,32 @@
 	top: '250dp',
 	left: '120dp',
 	color: "#000",
-	font: {
-		fontSize: '20'
-	}
 },
 "#name":{
 	top: '250dp',
 	left: '20dp',
 	color: "#000",
-	font: {
-		fontSize: '25'
-	}
+
 }
 "#phonelabel": {
 	top: '300dp',
 	left: '120dp',
 	color: "#000",
-	font: {
-		fontSize: '20'
-	}
 },
 "#phone":{
 	top: '300dp',
 	left: '20dp',
 	color: "#000",
-	font: {
-		fontSize: '25'
-	}
 }
 "#emaillabel": {
 	top: '350dp',
 	left: '120dp',
 	color: "#000",
-	font: {
-		fontSize: '20'
-	}
 },
 "#email":{
 	top: '350dp',
 	left: '20dp',
 	color: "#000",
-	font: {
-		fontSize: '25'
-	}
 }
 ".container": {
 	backgroundColor: 'white'

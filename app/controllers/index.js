@@ -7,7 +7,7 @@ if (OS_IOS) {
 if (OS_ANDROID) {
 	$.index.open();
 }
-//$.todoWin.open();
+
 
 todos.fetch();
 
@@ -37,8 +37,8 @@ if (OS_ANDROID) {
 	bookview.open();
 }
 
-function tomenu() {
-	var menu = Alloy.createController("menu", {}).getView();
-	$.navGroupWin.openWindow(menu);
+function toFav() {
+	var toFav = Alloy.createController("favourite", {}).getView();
+	$.navGroupWin.openWindow(toFav);
 }
 

@@ -3,7 +3,8 @@
 	<NavigationWindow id="navGroupWin" >
 		<Window id="todoWin">
 			<View >
-				<Button id="menuButton" onClick="tomenu" >Favourite</Button>
+
+				<Button id="menuButton" onClick="toFav" >Favourite</Button>
 				<View id="addView" onClick="addToDoItem">
 					<ImageView id="addImage"/>
 				</View>

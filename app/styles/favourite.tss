@@ -1,0 +1,36 @@
+"#favWin": {
+	//fullscreen: false,
+	navBarHidden: false,
+	exitOnClose: true
+}
+"#row": {
+	height: '40dp'
+}
+"#fav": {
+	image: '/images/fav.png',
+	width: '30dp',
+	height: 'auto',
+	left: '10dp'
+}
+"#task": {
+	left: '50dp'
+}
+"#menuButton":{
+	height: '70dp',
+	top: 0,
+	left: '5dp'
+}
+"#menu":{
+	layout: 'vertical',
+	left: '0dp'
+},
+"#buttonbar":{
+	top: '50dp',
+	width: '375dp',
+	height: '50dp',
+	left: '0dp'
+}
+"#backButton":{
+	bottom: '5dp',
+	right: '0dp'
+}
