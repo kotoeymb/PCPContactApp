@@ -3,17 +3,22 @@
 	navBarHidden: false,
 	exitOnClose: true
 }
-
+"#row": {
+	height: '40dp'
+}
+"#fav": {
+	image: '/images/fav.png',
+	width: '30dp',
+	height: 'auto',
+	left: '10dp'
+}
+"#task": {
+	left: '50dp'
+}
 "#menuButton":{
 	height:'70dp',
 	top:0,
 	left:'5dp',
-	
-}
-"#AddBuutton":{
-	height:'70dp',
-	top:0,
-	left:'240dp',
 	
 }
 "#menu":{
