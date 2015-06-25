@@ -1,22 +1,14 @@
 <Alloy>
 	<Collection src="todo"/>
-	
 	<NavigationWindow id="navGroupWin">
-		
 		<Window id="favWin" title="Favourites" class="container" modal="true">
-			
-			<View >
-				
-				<TableView id="todoTable" dataCollection="todo">
-					<!--<Require src="favrow"/>-->
+			<View>
+				<TableView id="todoTable" dataCollection="todo" dataFilter="whereFunction">
+					<TableViewRow  id="row">
+						<ImageView id="fav" user_id="{user_id}" done="{done}" onClick="toggleFav" />
+						<Label id="task" text = "{item}" ph ="{date_completed}" user_id="{user_id}" email="{done}"/>
+					</TableViewRow>
 				</TableView>
-				<Toolbar bottom="0">
-                <Items>
-                    <Button id="backButton" title="back" />
-                </Items>
-            </Toolbar>
-				
-				
 			</View>
 		</Window>
 	</NavigationWindow>

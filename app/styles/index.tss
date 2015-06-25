@@ -36,8 +36,6 @@
 "#addImage": {
 	height: '60dp',
 	width: '50dp',
-	
-	
 	image: "/images/addbutton/images-6.jpeg",
 	
 }
