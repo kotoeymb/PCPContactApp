@@ -1,7 +1,4 @@
-
 function toback() {
 	$.menu.close();
 }
-
-
 

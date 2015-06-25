@@ -7,15 +7,12 @@ function addItem() {
 		}
 	});
 
-	
 	todos.add(task);
 
-	
 	todos.fetch();
 
 	closeWindow();
 }
-
 
 function closeWindow() {
 	$.addWin.close();

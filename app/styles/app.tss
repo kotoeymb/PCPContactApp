@@ -7,6 +7,5 @@
 }
 
 "#navGroupWin":{
-	backgroundColor: '#fff',
-	
+	backgroundColor: '#fff'
 }

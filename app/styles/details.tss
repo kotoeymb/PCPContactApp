@@ -1,61 +1,66 @@
+"#detailWin":{
+	barColor: '#fff'
+}
 "#titlelabel": {
-	top:'250dp',
-	left:'120dp',
-	color:"#000",
-    font: {
-        fontSize: '20'
-    },
-    
+	top: '250dp',
+	left: '120dp',
+	color: "#000",
+	font: {
+		fontSize: '20'
+	}
 },
 "#name":{
-	top:'250dp',
-	left:'5dp',
-	color:"#000",
+	top: '250dp',
+	left: '20dp',
+	color: "#000",
 	font: {
-        fontSize: '25'
-    },
+		fontSize: '25'
+	}
 }
 "#phonelabel": {
-	top:'300dp',
-	left:'120dp',
-	color:"#000",
-    font: {
-        fontSize: '20'
-    },
-   
+	top: '300dp',
+	left: '120dp',
+	color: "#000",
+	font: {
+		fontSize: '20'
+	}
 },
 "#phone":{
-	top:'300dp',
-	left:'5dp',
-	color:"#000",
+	top: '300dp',
+	left: '20dp',
+	color: "#000",
 	font: {
-        fontSize: '25'
-    },
+		fontSize: '25'
+	}
 }
 "#emaillabel": {
-	top:'350dp',
-	left:'120dp',
-	color:"#000",
-    font: {
-        fontSize: '20'
-    },
-   
+	top: '350dp',
+	left: '120dp',
+	color: "#000",
+	font: {
+		fontSize: '20'
+	}
 },
 "#email":{
-	top:'350dp',
-	left:'5dp',
-	color:"#000",
+	top: '350dp',
+	left: '20dp',
+	color: "#000",
 	font: {
-        fontSize: '25'
-    },
+		fontSize: '25'
+	}
 }
-".container" : { 
-   backgroundColor: 'white' 
+".container": {
+	backgroundColor: 'white'
 }
 
 "#contactpic":{
-	top:'5dp',
-	height:'200dp',
+	top: '0dp',
+	height: '200dp',
 	width:Ti.UI.FILL,
-	image:"/images/profile/Unknown-7",
+	image: "/images/profile/Unknown-7"
+}
+".updateButton":{
+	height: '250dp',
+	left: '20dp',
+	top: '300dp'
 }

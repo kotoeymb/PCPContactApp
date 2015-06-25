@@ -1,15 +1,10 @@
-"#BackButton":{
-	top: '10dp',
-	right: '10dp',
-	height: '50dp'
-}
+
 "#listview":{
 	top: '10dp'
-
 }
 ".bowl":{
-	color:"#000",
+	color: "#000",
 	font: {
-        fontSize: '25'
-    }
+		fontSize: '25'
+	}
 }

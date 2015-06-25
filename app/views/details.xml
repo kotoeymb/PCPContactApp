@@ -1,5 +1,5 @@
 <Alloy>
-	<Window id="detailWin" title="Add Item" class="container" modal="true">
+	<Window id="detailWin">
 		<View >
 			<ImageView id="contactpic"></ImageView>
 			<Label id="name">Name</Label>
@@ -8,8 +8,8 @@
 			<TextField  id="titlelabel" hintText="Name" class="bowl">Name</TextField>
 			<TextField  id="phonelabel" hintText="Ph number" class="bowl">Phone_Number</TextField>
 			<TextField  id="emaillabel" hintText="Email" class="bowl">Email</TextField>
-			<Button class="updateButton" onClick="addItem" top=450 right=10>Update</Button>
-			<Button class="cancleButton" onClick="closeWindow" top=450 left=10>Cancel</Button>
+			<Button class="updateButton" onClick="addItem" >Update</Button>
+			
 		</View>
 	</Window>
 </Alloy>

@@ -1,9 +1,8 @@
 <Alloy>
-	<Window id="menu" >
-		
-		<ListView id="listview"> <!-- onItemclick="favList" -->
+	<Window id="menu" title="Favourite" >
+		<ListView id="listview">
 			<ListSection>
-				<ListItem title="Favourites"/>
+				<ListItem />
 			</ListSection>
 		</ListView>
 	</Window>
