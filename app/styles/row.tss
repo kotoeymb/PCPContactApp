@@ -12,7 +12,7 @@
 	color: 'black',
 	left: '50dp',
 	right: '50dp',
-	height: Ti.UI.SIZE
+	height: Ti.UI.SIZE,
 }
 
 ".databtn":{
@@ -23,5 +23,5 @@
 	left: '10dp',
 	width: '30dp',
 	height: 'auto',
-	image: '/images/fav.png'
+	image: '/images/fav_no.png'
 }

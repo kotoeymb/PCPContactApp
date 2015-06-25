@@ -30,7 +30,4 @@
 	height: '50dp',
 	left: '0dp'
 }
-"#backButton":{
-	bottom: '5dp',
-	right: '0dp'
-}
+
