@@ -14,6 +14,8 @@ migration.up = function(db) {
 			"done":"integer",
 			"date_completed" :"text",
 			"user_id" :"text",
+			"email" : "text",
+			"ppic" : "text"
 		}
 	});
 	for(var i = 0; i < preload_data.length; i++) {

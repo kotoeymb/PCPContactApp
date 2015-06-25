@@ -7,7 +7,7 @@
 			<ImageView id="contactpic"></ImageView>
 			<Label id="name">Name</Label>
 			<Label id="phone">Phone</Label>
-			<Label id="email">email</Label>
+			<Label id="email">Email</Label>
 			<TextField  id="titlelabel" hintText="Name" class="bowl">Name</TextField>
 			<TextField  id="phonelabel" hintText="Phone" class="bowl">Phone_Number</TextField>
 			<TextField  id="emaillabel" hintText="Email" class="bowl">Email</TextField>
