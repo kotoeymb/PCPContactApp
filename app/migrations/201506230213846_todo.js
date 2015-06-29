@@ -10,10 +10,12 @@ var preload_data = [
 migration.up = function(db) {
 	db.createTable({
 		"columns": {
-		"item":"text",
+			"item":"text",
 			"done":"integer",
 			"date_completed" :"text",
 			"user_id" :"text",
+			"email" : "text",
+			"ppic" : "text"
 		}
 	});
 	for(var i = 0; i < preload_data.length; i++) {

@@ -1,11 +1,13 @@
 <Alloy>
 	<Window id="addWin" title="Add Contact" class="container" modal="true" >
+		<RightNavButton>
+			<Button class="addButton" onClick="addItem">Done</Button>
+		</RightNavButton>
 		<View layout="vertical">
-			<ImageView id="contactpic"></ImageView>
+			<ImageView id="contactpic" onClick="chooseLibrary"></ImageView>
 			<TextField id="itemField" hintText="Name" class="bowl"></TextField>
 			<TextField id="doneField" hintText="Phone" class="bowl"></TextField>
 			<TextField id="emailField" hintText="Email" class="bowl"></TextField>
-			<Button class="addButton" onClick="addItem">Add Item</Button>
 		</View>
 	</Window>
 </Alloy>

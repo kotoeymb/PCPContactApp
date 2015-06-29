@@ -1,8 +1,6 @@
 var todos = Alloy.Collections.todo;
 todos.fetch();
 
-var toFav = Ti.UI.createB
-
 function addToDoItem() {
 	var add = Alloy.createController("add", {}).getView();
 	$.navGroupWin.openWindow(add);
@@ -11,11 +9,11 @@ function addToDoItem() {
 function show(event) {
 	var selectedBook = event.source;
 	var args = {
-
 		user_id : selectedBook.user_id,
 		item : selectedBook.text,
 		date_completed : selectedBook.ph,
-		done : selectedBook.email
+		done : selectedBook.email,
+		ppic : selectedBook.ppic
 	};
 	var bookview = Alloy.createController("details", args).getView();
 	$.navGroupWin.openWindow(bookview);

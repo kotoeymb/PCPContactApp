@@ -11,7 +11,6 @@ if ($model) {
 
 function toggleFav(e) {
 	var s = e.source;
-	alert("Do u want to add?");
 	Alloy.Collections.todo.updateRecord({
 		query : {
 			columns : ["done"],

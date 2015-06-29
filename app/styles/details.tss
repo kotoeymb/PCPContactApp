@@ -5,33 +5,36 @@
 "#titlelabel": {
 	top: '250dp',
 	left: '120dp',
-	color: "#000",
+	color: "#000"
 },
 "#name":{
 	top: '250dp',
 	left: '20dp',
-	color: "#000",
-
+	color: "#000"
 }
 "#phonelabel": {
 	top: '300dp',
 	left: '120dp',
-	color: "#000",
+	color: "#000"
 },
 "#phone":{
 	top: '300dp',
 	left: '20dp',
-	color: "#000",
+	color: "#000"
 }
 "#emaillabel": {
 	top: '350dp',
 	left: '120dp',
-	color: "#000",
+	color: "#000"
 },
+"#ppiclabel": {
+	top: '400dp',
+	left:'20dp'
+}
 "#email":{
 	top: '350dp',
 	left: '20dp',
-	color: "#000",
+	color: "#000"
 }
 ".container": {
 	backgroundColor: 'white'
