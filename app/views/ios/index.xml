@@ -8,7 +8,6 @@
 			<RightNavButton>
 				<Button onClick="addToDoItem">Add</Button>
 			</RightNavButton>
-			
 			<TableView id="todoTable" dataCollection="todo" onClick="show">
 				<Require src="row"/>
 			</TableView>
