@@ -47,18 +47,7 @@ function showGal() {
 	Titanium.Media.openPhotoGallery({
 		success : function(event) {
 			// called when media returned from the camera
-<<<<<<< HEAD
-			Ti.API.debug('Our type was: ' + event.mediaType);
 			if (event.mediaType == Ti.Media.MEDIA_TYPE_PHOTO) {
-				// var imageView = Ti.UI.createImageView({
-					// width : win.width,
-					// height : win.height,
-					// image : event.media
-				// });
-				// win.add(imageView);
-=======
-			if (event.mediaType == Ti.Media.MEDIA_TYPE_PHOTO) {
->>>>>>> feature/camera
 				$.contactpic.image = event.media;
 			} else {
 				alert("got the wrong type back =" + event.mediaType);
