@@ -8,6 +8,7 @@
 			<TextField id="itemField" hintText="Name" class="bowl"></TextField>
 			<TextField id="doneField" hintText="Phone" class="bowl"></TextField>
 			<TextField id="emailField" hintText="Email" class="bowl"></TextField>
+			<TextField id="hidden" visible="false"></TextField>
 		</View>
 	</Window>
 </Alloy>

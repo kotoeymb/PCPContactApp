@@ -1,15 +1,30 @@
 var args = arguments[0] || {};
 $.titlelabel.value = args.item || 'Default name';
 $.phonelabel.value = args.date_completed || 'Default phone';
-$.emaillabel.value = args.done || 'Default author';
+$.emaillabel.value = args.email || 'Default email';
+
+// to track image was changed or not, default is false 0
+$.hidden.value = 0;
 
 // get file
-var appImage = Ti.Filesystem.getFile(Ti.Filesystem.applicationDataDirectory + args.ppic);
-$.contactpic.image = appImage.exists() ? appImage : '/images/profile/Unknown-7';
+var appResoDir = Ti.Filesystem.applicationDataDirectory;
+// get image name
+var appImageFile = args.user_id + '.png';
+// get image file in resource folder
+var appImage = Ti.Filesystem.getFile(appResoDir + appImageFile);
+// if file exists, push the url to contactpic image
+$.contactpic.image = appImage.exists() ? appImage : 'images/Unknown-7.png';
 
-function addItem() {
-
+function updateItem() {
 	var todo = Alloy.Collections.todo;
+
+	if ($.hidden.value == 1) {
+		// get the file of the selected image from application data directory
+		var fp = Ti.Filesystem.getFile(appResoDir, appImageFile);
+		// save the file to application data directory
+		fp.write($.contactpic.image);
+	}
+
 	Alloy.Collections.todo.updateRecord({
 		query : {
 			columns : ["item", "date_completed", "done"],
@@ -27,7 +42,6 @@ function closeWindow() {
 }
 
 $.contactpic.addEventListener("click", function() {
-
 	var opts = {
 		cancel : 2,
 		options : ['Take a Photo', 'Select from Gallery', 'Cancel'],
@@ -59,25 +73,7 @@ $.contactpic.addEventListener("click", function() {
 			Titanium.Media.openPhotoGallery({
 				allowEditing : true,
 				success : function(event) {
-					// application data direcotry
-					var app_data_dir = Ti.Filesystem.applicationDataDirectory;
-					// create name of the image from user_id so that the name of the image and user_id is connected
-					var image_name = args.user_id + '.png';
-					// get the file of the selected image from application data directory
-					var fp = Ti.Filesystem.getFile(app_data_dir, image_name);
-					// save the file to application data directory
-					fp.write(event.media);
-					
-					// update the record
-					Alloy.Collections.todo.updateRecord({
-						query : {
-							columns : ["ppic"],
-							values : [image_name],
-							whereKey : ["user_id"],
-							whereValue : [args.user_id]
-						}
-					});
-
+					$.hidden.value = 1;
 					$.contactpic.status = "new";
 					$.contactpic.image = event.media;
 				},

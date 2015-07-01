@@ -10,5 +10,8 @@
 	backgroundColor: '#fff'
 }
 "#row": {
-	height: '40dp'
+	height: '50dp'
+}
+"TextField": {
+	borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED
 }

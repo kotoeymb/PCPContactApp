@@ -6,7 +6,8 @@
 	color: 'black',
 	left: '50dp',
 	right: '50dp',
-	height: Ti.UI.SIZE,
+	height: '30dp',
+	top: '0'
 }
 
 ".databtn":{
@@ -18,4 +19,12 @@
 	width: '30dp',
 	height: 'auto',
 	image: '/images/n_fav.png'
+}
+"#subtask": {
+	left: '50dp',
+	top: '30dp',
+	color: 'gray',
+	font: {
+		fontSize: '13dp'
+	}
 }
