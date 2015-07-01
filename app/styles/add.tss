@@ -1,38 +1,23 @@
 "#addWin":{
-	layout: 'vertical',
-	barColor: '#fff'
+	barColor: '#fff',
+	title: 'Information'
+}
+"TextField": {
+	left: '10dp',
+	right: '10dp',
+	color: '#000',
+	top: '10dp',
+	width: Ti.UI.FILL,
+	height: '30dp'
+}
+"Label": {
+	left: '10dp',
+	color: "#000"
+}
+".container": {
+	backgroundColor: 'white'
 }
 
-"#itemField":{
-	left: '30dp',
-	width: '70%',
-	top: '40dp',
-	returnKeyType: Ti.UI.RETURNKEY_DONE
-}
-"#doneField":{
-	left: '30dp',
-	width: '70%',
-	top: '40dp',
-	returnKeyType: Ti.UI.RETURNKEY_DONE
-}
-"#emailField":{
-	left: '30dp',
-	width: '70%',
-	top: '40dp',
-	returnKeyType: Ti.UI.RETURNKEY_DONE
-}
-".addButton":{
-	height: '100dp',
-	left: '30dp'
-}
-
-".bowl":{
-	color: "#000",
-	font: {
-		fontStyle: 'normal',
-		fontWeight: 'bold'
-	}
-},
 "#contactpic":{
 	top: '0dp',
 	height: '200dp',

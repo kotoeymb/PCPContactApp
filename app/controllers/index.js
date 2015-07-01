@@ -13,7 +13,7 @@ function show(event) {
 		item : selectedBook.text,
 		date_completed : selectedBook.ph,
 		done : selectedBook.email,
-		ppic : selectedBook.ppic
+		email : selectedBook.email
 	};
 	var bookview = Alloy.createController("details", args).getView();
 	$.navGroupWin.openWindow(bookview);
