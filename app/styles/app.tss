@@ -1,7 +1,52 @@
 "Window": {
 	backgroundColor: '#fff'
 }
-
+"LeftNavButton[platform=ios]": {
+	font: {
+		fontFamily: "HelveticaNeue-Light"
+	}
+}
+"LeftNavButton[platform=android]": {
+	font: {
+		fontFamily: "helveticaneuelight"
+	}
+}
+"Button[platform=ios]": {
+	font: {
+		fontFamily: "HelveticaNeue-Light"
+	}
+}
+"Button[platform=android]": {
+	font: {
+		fontFamily: "helveticaneuelight"
+	}
+}
+"Label[platform=ios]": {
+	font: {
+		fontFamily: "HelveticaNeue-Light"
+	}
+}
+"Label[platform=android]": {
+	font: {
+		fontFamily: "helveticaneuelight"
+	}
+}
+"TextField[platform=ios]": {
+	font: {
+		fontFamily: "HelveticaNeue-Light"
+	}
+}
+"TextField[platform=android]": {
+	font: {
+		fontFamily: "helveticaneuelight"
+	}
+}
+"#fav": {
+	left: '10dp',
+	width: '25dp',
+	height: 'auto',
+	image: '/images/n_fav.png'
+}
 "Label": {
 	color: '#000'
 }
@@ -14,4 +59,23 @@
 }
 "TextField": {
 	borderStyle:Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+}
+"#task": {
+	color: 'black',
+	left: '50dp',
+	right: '50dp',
+	height: '30dp',
+	top: '0',
+	font: {
+		fontSize: '15dp'
+	}
+}
+
+"#subtask": {
+	left: '50dp',
+	top: '30dp',
+	color: 'gray',
+	font: {
+		fontSize: '13dp'
+	}
 }

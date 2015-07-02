@@ -4,7 +4,7 @@ exports.definition = {
 		"columns" : {
 			"item" : "text",
 			"done" : "integer",
-			"date_completed" : "text",
+			"phone" : "text",
 			"user_id" : "text",
 			"email" : "text",
 			"ppic" : "text"

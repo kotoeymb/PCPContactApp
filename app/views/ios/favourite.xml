@@ -3,10 +3,7 @@
 	<Window id="favWin" title="Favourites" class="container" modal="true">
 		<View>
 			<TableView id="todoTable" dataCollection="todo" dataFilter="whereFunction">
-				<TableViewRow  id="row">
-					<ImageView id="fav" user_id="{user_id}" done="{done}" onClick="toggleFav" />
-					<Label id="task" text = "{item}" ph ="{date_completed}" user_id="{user_id}" email="{done}"/>
-				</TableViewRow>
+				<Require src="row" />
 			</TableView>
 		</View>
 	</Window>

@@ -1,30 +1,3 @@
-"#row[platform=ios]": {
-	selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
-}
-
-"#task": {
-	color: 'black',
-	left: '50dp',
-	right: '50dp',
-	height: '30dp',
-	top: '0'
-}
-
 ".databtn":{
 	right: '10dp'
-}
-
-"#fav": {
-	left: '10dp',
-	width: '30dp',
-	height: 'auto',
-	image: '/images/n_fav.png'
-}
-"#subtask": {
-	left: '50dp',
-	top: '30dp',
-	color: 'gray',
-	font: {
-		fontSize: '13dp'
-	}
 }

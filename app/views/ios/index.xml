@@ -1,5 +1,5 @@
 <Alloy>
-	<Collection src = "todo"/>
+	<Collection src="todo"/>
 	<NavigationWindow id="navGroupWin">
 		<Window id="todoWin">
 			<LeftNavButton>
