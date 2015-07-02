@@ -1,8 +1,8 @@
 <Alloy>
-	<TableViewRow id="row" touchEnabled="false">
+	<TableViewRow id="row">
 		<ImageView id="fav" onClick="toggleFav" user_id="{user_id}" done="{done}" />
-		<Label id="task" text="{item}" ph="{phone}" user_id="{user_id}" email="{email}" ppic="{ppic}" done="{done}"/>
-		<Label id="subtask" text="{phone}" touchEnabled="false" />
-		<Button class="databtn"  onLongpress="deleteTask" user_id="{user_id}">Delete</Button>
+		<Label id="task" text="{item}" phone="{phone}" user_id="{user_id}" email="{email}" ppic="{ppic}" done="{done}" />
+		<Label id="subtask" text="{phone}"/>
+		<Button id="databtn" user_id="{user_id}" onLongpress="deleteRecord">Delete</Button>
 	</TableViewRow>
 </Alloy>

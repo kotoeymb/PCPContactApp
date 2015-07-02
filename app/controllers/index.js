@@ -5,19 +5,6 @@ function addToDoItem() {
 	$.navGroupWin.openWindow(add);
 }
 
-function show(event) {
-	var selectedBook = event.source;
-	var args = {
-		user_id : selectedBook.user_id,
-		item : selectedBook.text,
-		phone : selectedBook.ph,
-		done : selectedBook.email,
-		email : selectedBook.email
-	};
-	var bookview = Alloy.createController("details", args).getView();
-	$.navGroupWin.openWindow(bookview);
-}
-
 function toFav() {
 	var toFav = Alloy.createController("favourite", {}).getView();
 	$.navGroupWin.openWindow(toFav);
@@ -34,6 +21,19 @@ function toggleFav(e) {
 		}
 	});
 	todos.fetch();
+}
+
+function show(event) {
+	var selectedBook = event.source;
+	var args = {
+		user_id : selectedBook.user_id,
+		item : selectedBook.text,
+		phone : selectedBook.phone,
+		done : selectedBook.done,
+		email : selectedBook.email
+	};
+	var bookview = Alloy.createController("details", args).getView();
+	$.navGroupWin.openWindow(bookview);
 }
 
 if (OS_IOS) {

@@ -22,7 +22,6 @@ function toggleFav(e) {
 	todos.fetch();
 }
 
-var todo = Alloy.Collections.todo;
 function deleteTask(event) {
 	var s = event.source;
 	Alloy.Collections.todo.deleteRecord({
@@ -33,5 +32,25 @@ function deleteTask(event) {
 	});
 
 	alert("Do u want to delete?");
-	todo.fetch();
+	todos.fetch();
+}
+
+function deleteRecord(e) {
+	var opts = {
+		cancel : 1,
+		options : ['Are you sure?', 'Cancel'],
+		selectedIndex : 1,
+		destructive : 0,
+		title : 'Delete'
+	};
+
+	var dialog = Ti.UI.createOptionDialog(opts);
+	dialog.show();
+	
+	dialog.addEventListener('click', function(i) {
+		switch(i.index) {
+			case (0):
+				deleteTask(e);
+		}
+	});
 }

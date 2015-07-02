@@ -27,7 +27,7 @@ function updateItem() {
 
 	Alloy.Collections.todo.updateRecord({
 		query : {
-			columns : ["item", "phone", "done"],
+			columns : ["item", "phone", "email"],
 			values : [$.titlelabel.value, $.phonelabel.value, $.emaillabel.value],
 			whereKey : ["user_id"],
 			whereValue : [args.user_id]
