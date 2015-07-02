@@ -1,6 +1,6 @@
 var args = arguments[0] || {};
 $.titlelabel.value = args.item || 'Default name';
-$.phonelabel.value = args.date_completed || 'Default phone';
+$.phonelabel.value = args.phone || 'Default phone';
 $.emaillabel.value = args.email || 'Default email';
 
 // to track image was changed or not, default is false 0
@@ -27,7 +27,7 @@ function updateItem() {
 
 	Alloy.Collections.todo.updateRecord({
 		query : {
-			columns : ["item", "date_completed", "done"],
+			columns : ["item", "phone", "done"],
 			values : [$.titlelabel.value, $.phonelabel.value, $.emaillabel.value],
 			whereKey : ["user_id"],
 			whereValue : [args.user_id]

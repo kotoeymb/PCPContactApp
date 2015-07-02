@@ -1,24 +1,22 @@
-"#favWin": {
-	fullscreen: false,
-	navBarHidden: false,
-	exitOnClose: true
-}
-"#fav": {
-	image: '/images/y_fav.png',
-	width: '30dp',
-	height: 'auto',
-	left: '10dp'
+"#row[platform=ios]": {
+	selectionStyle:Ti.UI.iPhone.TableViewCellSelectionStyle.NONE
 }
 "#task": {
-	left: '50dp'
+	color: 'black',
+	left: '50dp',
+	right: '50dp',
+	height: '30dp',
+	top: '0'
 }
-"#menu":{
-	layout: 'vertical',
-	left: '0dp'
-},
-"#buttonbar":{
-	top: '50dp',
-	width: '375dp',
-	left: '0dp'
+".databtn":{
+	right: '10dp'
+}
+"#subtask": {
+	left: '50dp',
+	top: '30dp',
+	color: 'gray',
+	font: {
+		fontSize: '13dp'
+	}
 }
 

@@ -2,29 +2,14 @@
 	fullscreen: false,
 	navBarHidden: false,
 	exitOnClose: true,
-	title: 'Contacts',
+	title: 'Contacts'
 }
-
 "#todoTable": {
 	bottom: '46dp'
 }
-
 "#buttonbar":{
 	top: '70dp',
 	width:Ti.UI.FILL,
 	height: '50dp',
 	left: '0dp'
-}
-"#addView": {
-	top: '5dp',
-	height: '70dp',
-	right: "5dp" ,
-	width: "50dp"
-}
-
-"#addImage": {
-	width: '25dp',
-	height: 'auto',
-	bottom: '15dp',
-	image: "/images/add.png"
 }
